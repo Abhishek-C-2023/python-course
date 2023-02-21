@@ -1,0 +1,4 @@
+a=("Abhishek C")
+
+print(dir(a))
+print(3//2)
