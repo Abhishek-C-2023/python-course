@@ -1,0 +1,17 @@
+
+L=[]
+a=int(input("Enter limit"))
+for i in range(a):
+    y=int(input())
+    L.append(y)
+print("Elements in the list are",L)
+x=0
+for i in L:
+    x=x+i
+print("The total sum of numbers in list is",x)
+"""
+x=input("Enter numbers:").split()
+x=[int(i) for i in x]
+y=sum(x)
+print(y)
+"""
